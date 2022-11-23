@@ -1,0 +1,30 @@
+import React from "react";
+import useFetch from "./useFetch";
+
+const DogDetail = () => {
+
+    const data = useFetch("https://dog.ceo/api/breeds/image/random")
+    
+    if (data.isLoading) {
+        return <div>Loading... </div>
+    }
+    if (data.error) {
+        return <div>Sorry, something went Wrong.</div>
+    }
+
+    const { status, message } = data.response
+
+
+
+
+    return (
+        <div>
+            <h3>{status}</h3>
+            <div>
+                <img src={message} alt="avatar" style={{width:"400px", height:"400px"}} />
+            </div>
+        </div>
+    )
+}
+
+export default DogDetail;
