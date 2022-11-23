@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Accessing-Dog-Api-in-React/static/css/main.073c9b0a.css",
+    "main.js": "/Accessing-Dog-Api-in-React/static/js/main.0989c2ee.js",
+    "static/js/787.7f6aa3a8.chunk.js": "/Accessing-Dog-Api-in-React/static/js/787.7f6aa3a8.chunk.js",
+    "index.html": "/Accessing-Dog-Api-in-React/index.html",
+    "main.073c9b0a.css.map": "/Accessing-Dog-Api-in-React/static/css/main.073c9b0a.css.map",
+    "main.0989c2ee.js.map": "/Accessing-Dog-Api-in-React/static/js/main.0989c2ee.js.map",
+    "787.7f6aa3a8.chunk.js.map": "/Accessing-Dog-Api-in-React/static/js/787.7f6aa3a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.0989c2ee.js"
+  ]
+}
